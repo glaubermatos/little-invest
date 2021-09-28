@@ -1,0 +1,45 @@
+.iniciar-cadastro {
+
+    .container {
+        display: flex;
+        justify-content: stretch;
+    }
+
+    .criar-conta {
+        background: var(--menu-background-color);
+
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        padding: 4rem 4rem 4rem 9.6875rem;
+
+        .col-12 {
+            width: 100%;
+        }
+
+        form .col-12 + .col-12 {
+            margin-top: 2rem;
+        }
+
+        .title {
+            margin-bottom: 4rem;
+        }
+
+        button {
+            margin-top: 2rem;
+        }
+    }
+
+    .suporte {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        padding-top: 2.25rem;
+
+        .subtitle {
+            margin-top: 2.5rem;
+        }
+    }
+}

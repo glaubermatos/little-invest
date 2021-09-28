@@ -1,0 +1,40 @@
+.inscricao {
+
+    .wrapper-title {
+        background: var(--primary-color);
+        height: 6.25rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .title {
+            color: var(--white-color);
+        }
+    }
+
+    .wrapper-formulario {
+
+        .container {
+            max-width: 48rem;
+            padding: 4rem 0;
+        }
+        
+        .formulario-inscricao {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            column-gap: 2.5rem;
+            row-gap: 1.25rem;
+
+            margin-bottom: 1.25rem;
+        }
+
+        .actions {
+            display: flex;
+            justify-content: flex-end;
+
+            button > img {
+                margin-left: 2rem;
+            }
+        }
+    }
+}

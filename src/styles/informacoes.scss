@@ -1,0 +1,40 @@
+.informacoes {
+    padding-top: 4rem;
+    padding-bottom: 5rem;
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .title {
+        margin-bottom: 5rem;
+    }
+
+    .cards {
+        display: flex;
+        justify-content: stretch;
+        gap: 2rem;
+        margin-bottom: 1.5rem;
+
+        .card {
+            padding: 1rem 2rem;
+            width: 100%;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            .subtitle,
+            .detail {
+                text-align: center;
+            }
+
+            .subtitle {
+                margin-bottom: 0.625rem;
+            }            
+        }
+    }
+}

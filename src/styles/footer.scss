@@ -1,0 +1,66 @@
+.rodape {
+    background: var(--text-color);
+    padding-top: 2rem;
+
+    .container {
+        display: flex;
+        gap: 8.125rem;
+        padding-bottom: 2.5rem;
+    }
+
+    .mapa-redes {
+        display: flex;
+        gap: 6.25rem;
+    }
+
+    h2.subtitle {
+        color: var(--gray-200);
+        text-transform: uppercase;
+        letter-spacing: 0.0625rem;
+        margin-bottom: 1.25rem;
+    }
+
+    .mapa-do-site {
+        nav {
+            display: flex;
+            gap: 1rem;
+        }
+
+        ul {
+            color: var(--gray-600);
+            list-style: inside "- ";
+        }
+    }
+
+    .redes-sociais {
+
+        ul {
+            display: flex;
+            gap: 1.25rem;
+        }
+    }
+
+    .sobre {
+
+    
+        p {
+            color: var(--gray-600);
+            max-width: 24.125rem;
+        }
+    }
+
+    .copyright {
+        background: var(--primary-color);
+
+        .container {
+            padding: 1.375rem 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        .subtitle {
+            color: var(--white-color);
+        }
+
+    }
+}

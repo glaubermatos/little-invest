@@ -1,0 +1,71 @@
+.status-inscricao {
+    margin: auto;
+    margin-bottom: 4.5rem;
+    max-width: 34rem;
+
+    .status-container {
+
+        .linha {
+            height: 2px;
+            background: var(--gray-250);
+            display: flex;
+            justify-content: space-between;
+            margin: 0 3rem;
+            position: relative;
+
+            &.etapa-2::after {
+                content: "";
+                position: absolute;
+                left: 0;
+                top: 0;
+                height: 2px;
+                width: 50%;
+                background: var(--primary-color);
+            }
+
+            &.etapa-3::after {
+                content: "";
+                position: absolute;
+                left: 0;
+                top: 0;
+                height: 2px;
+                width: 100%;
+                background: var(--primary-color);
+            }
+
+            .circle {
+                height: 1.5rem;
+                width: 1.5rem;
+                border-radius: 50%;
+                border: 2px solid var(--primary-light-color);
+                background: var(--white-color);
+                transform: translateY(-0.75rem);
+
+                &.active {
+                    background: var(--primary-color);
+                }
+            }
+        }
+    }
+
+    .etapas {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 1.5rem;
+
+        .etapa1,
+        .etapa2,
+        .etapa3 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+            gap: 0.3125rem;
+        }
+        
+        .etapa2,
+        .etapa3 {
+            transform: translateX(-1rem);
+        }
+    }
+}
